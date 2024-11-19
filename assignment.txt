@@ -1,0 +1,13 @@
+Creeaza o aplicatie care analizeaza un text dintr-un fisier .txt.
+
+Aplicatia va returna urmatoarele informatii:
+  - numarul caracterelor din fisier
+  - numarul cuvintelor din fisier
+  - numarul frazelor din fisier
+
+Aceste informatii vor fi scrise intr-un fisier .csv.
+
+* Citeste textul dintr-un document word (.doc, .docx - cautati o biblioteca ce va permite sa faceti acest lucru - NU FOLOSITI ChatGPT)
+* Adauga o interfata grafica aplicatiei (folosind streamlit) pentru a putea uploada fisierul ce trebuie analizat si pentru a afisa rezultatul in pagina web
+
+Fa un local repository in care vei salva versiuni ale aplicatiei pe masura ce o dezvolti.
