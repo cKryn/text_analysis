@@ -3,7 +3,7 @@
 
 ## How to use the app
 1. Clone this repository
-> git clone repository_URL
+> git clone https://github.com/cKryn/text_analysis.git
 2. Create virtual environment
 > python -m venv .venv
 3. Install requirements
