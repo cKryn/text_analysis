@@ -30,3 +30,5 @@ try:
     phrase_numbers(data)  # Inside function -> Print all phrase_numbers
 except FileNotFoundError:
     print("From your 'input_data' directory, the actually docx file is missing!")
+
+
