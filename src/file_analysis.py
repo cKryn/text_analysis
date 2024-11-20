@@ -33,11 +33,13 @@ def character_numbers(reformed_data):
 
 def words_numbers(data):
     """Count only words in data"""
-    chars_to_remove = ["1","2","3","4","5","6","7","8","9","0","?","!",",","."," ","-","'"]
-    result = ""
+    chars_to_remove = ["1","2","3","4","5","6","7","8","9","0","?","!",",",".","-","'"]
+    pre_result = ""
     for char in data:
         if char not in chars_to_remove:
-            result += char
+            pre_result += char
+    pre_result = pre_result.split(" ")
+    result = [word for word in pre_result if word != '']
     count = len(result)
     print(f"The total number of words in your 'input_data' is: {count}")
 
@@ -46,4 +48,4 @@ def phrase_numbers(data):
     """Count total number of phrases"""
     phrases = data.replace("!", ".").replace("?", ".").split(".")
     count = len(phrases)
-    print(f"The total number of words in your 'input_data' is: {count}")
+    print(f"The total number of phrases in your 'input_data' is: {count}")
